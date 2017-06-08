@@ -1,0 +1,12 @@
+<div class="container">
+  <h1>In widget component</h1>
+  <div>
+    <div #red2 id="red" class="block-style">Red</div>
+    <div #green2 id="green" class="block-style">Green</div>
+    <div #blue2 id="blue" class="block-style"> Blue</div>
+  </div>
+  <br>
+  <button #red1 class="btn btn-default" (click)="changeBorder(red1.value)" value="red">Red</button>
+  <button #green1 class="btn btn-default" (click)="changeBorder(green1.value)" value="green">Green</button>
+  <button #blue1 class="btn btn-default" (click)="changeBorder(blue1.value)" value="blue">Blue</button>
+</div>
